@@ -1,13 +1,11 @@
 .carousel-container {
-  /* position: relative; */
-  /* width: 50%; */
-  /* height: 100px; */
-  /* overflow: hidden; */
-  /* transform: translateX(30%); */
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  transform: translateX(2vh);
   width: 100%;
-  /* max-width: 800px; */
-  /* margin: 0; */
-  /* padding: 20px 0; */
+  margin: 0;
+  padding: 10px 0;
 }
 
 .carousel {
@@ -20,10 +18,6 @@
   animation: carousel-scroll 50s infinite linear;
 }
 
-/* .carousel-container {
-
-} */
-
 .carousel-slide {
   display: flex;
   align-items: center;
@@ -32,11 +26,11 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px;
   margin: 5px 50px -15px 50px;
-  margin-right: 23px; /* Add space between logos */
+  margin-right: 25px;
 }
 
 .carousel-slide:last-child {
-  margin-right: 0; /* Remove margin from the last logo */
+  margin-right: 5;
 }
 
 .carousel-image {
@@ -44,7 +38,6 @@
   height: auto;
   transform: scale(1.6);
 }
-
 
 @keyframes carousel-scroll {
   0% {

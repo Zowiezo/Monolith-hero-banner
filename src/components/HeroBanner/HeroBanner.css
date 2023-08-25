@@ -58,13 +58,13 @@ h1{
   border-radius: 30px;
   text-transform: uppercase;
   border: none !important;
-  margin-right: 2%;
-
+  margin-left: 7vh;
 }
 
 .inactive {
   background-color: transparent !important;
   border: 3px solid #ff5a5f !important;
+  margin-left: 3vh;
 }
 
 .inactive:hover {

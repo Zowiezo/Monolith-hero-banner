@@ -39,7 +39,7 @@ const LogoSlider = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => {
         setIsHovered(false);
-        setIsPaused(false); // Start autoplay immediately when mouse moves away
+        setIsPaused(false);
       }}
     >
       <Slider ref={sliderRef} {...settings}>
